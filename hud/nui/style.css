@@ -1,0 +1,72 @@
+
+body {
+    margin: 0;
+}
+
+.allhud {
+    position: absolute;
+    right: 0%;
+    background-repeat: no-repeat;
+
+    max-width: 200px;
+
+}
+
+.greenzone  {
+    position: relative;
+    top:55px;
+}
+
+.money {
+    color: white;
+    position: absolute;
+    right: 3%;
+    top: 10em;
+}
+
+.idsiuseri {
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+    color: white;
+    position: absolute;
+    top: 4em;
+    font-size: 15px;
+    text-align: center;
+    min-width: 100%;
+    max-height: 40px;
+}
+
+h1 {
+    text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+    font-size: 25px;
+    direction: rtl;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+    font-size: 15px;
+    direction: rtl;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.voiceoff, .voiceon  {
+    position: absolute;
+    font-size: 25px;
+    right: 5px;
+    top: 12em;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0);
+}
+
+.carhud {
+    position: fixed;
+    bottom:5%;
+    left:18%;
+}
+.viteza h1, .seatbelt h1, .fuel h1 {
+    direction: ltr;
+    font-size: 17px;
+    color: white;
+    text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0);
+}
